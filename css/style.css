@@ -75,6 +75,11 @@ ul li .nav-link {
     letter-spacing: 10px;
 }
 
+/* H1 greeting */
+.greeting {
+    color: #008AAA;
+}
+
 .user-img-section {
     margin-right: -5%;
 }
