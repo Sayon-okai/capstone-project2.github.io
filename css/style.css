@@ -116,7 +116,7 @@ ul li .nav-link {
     background-color: #fff;
     box-shadow: 3px 3px #008AAA17;
     color: #008AAA;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 #btn-hire-me {
