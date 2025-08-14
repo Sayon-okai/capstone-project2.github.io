@@ -1,0 +1,127 @@
+/*   Colors
+        Orange: #D1884F
+        Blue: #008AAA
+        Light Blue: #3BBADB
+
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Inter", monospace;
+}
+
+
+
+#header {
+    height: 250px;
+    padding-top: 200px;
+    
+    /* background-color: antiquewhite; */
+    
+}
+
+/* Logo and Icons */
+.logo {
+     height: 300px;
+}
+
+
+
+/* Nav Links */
+
+ul {
+    align-items: center;
+ 
+    
+}
+
+.active-link {
+    font-size: 1.5em;
+    font-style: normal;
+    color: #D1884F;
+}
+
+
+ul li .nav-link {
+           margin-right: ;
+           font-family: "Inter", monospace;
+           color: #000;
+      
+           
+        
+}
+
+/* Hero Section */
+
+.lead {
+        color: #3BBADB;
+        margin-bottom: 33px;
+        font-family: "Inter", monospace;
+}
+
+.special-text {
+    color: #D1884F;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+.user-img-section {
+    margin-right: -5%;
+}
+
+.user-profile {
+    width: 500px;
+    height: 523px;
+    
+  
+  
+}
+
+.info-about {
+    margin-bottom: 33px;
+    text-align: justify;
+
+}
+
+/* Button */
+
+.btn-section {
+    margin-top: 5em;
+}
+
+ #btn-see-project:hover{
+    width: 40.5%;
+    background-color: #008AAA;
+    color: #fff;
+    transition: all 1s ease-in-out;
+}
+#btn-hire-me:hover{
+    width: 30.5%;
+    background-color: #fff;
+    box-shadow: 3px 3px #008AAA17;
+    color: #008AAA;
+    transition: all 1s ease-in-out;
+}
+
+#btn-hire-me {
+    width: 30%;
+    background: #008AAA;
+    box-shadow: 5px 5px #008AAA25;
+    color: #fff;
+}
+
+#btn-see-project {
+    width: 40%;
+    border: 2px solid #008AAA;
+    color: #008AAA;
+    box-shadow: 3px 3px #008AAA17;
+}
+
+
+
+
+
