@@ -16,8 +16,8 @@
  - Frontend: HTML, CSS, JavaScript
  - Version Control: Git & GitHub
  - Deployment: GitHub Pages
-# Framework 
- - Bootstrap 5
+    # Framework 
+      - Bootstrap 5
 
 # 📷 Screenshots
      
