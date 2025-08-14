@@ -121,6 +121,21 @@ ul li .nav-link {
     box-shadow: 3px 3px #008AAA17;
 }
 
+/* Line separating here section and about me section  */
+
+.line {
+         margin: 150px 0 85px 0;
+}
+
+/* About me */
+.about-me {
+    font-size: 2em;
+    color: #D1884F;
+    position: absolute;
+    left: 26%;
+   
+}
+
 
 
 
