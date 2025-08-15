@@ -150,20 +150,17 @@ ul li .nav-link {
 
 .about-section {
     /* background-color: #008AAA; */
-    height: 70vh;
-    display: grid;
-    grid-template-rows:  1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    
+    display: flex;
+    margin: 10% 0 10% 0;
+    flex-flow: row wrap;
+   flex-basis: 100px;
     
 }
 
-.about-section:first-child {
-    grid-column: span 2;
-}
-
 .about-section .educational-profile {
-     order: 1;
-     margin-top: -60%;
+
+ 
      text-align: center;
 
 }
@@ -197,7 +194,7 @@ ul li .nav-link {
 }
 
 .skills {
-          margin-top: 30%;
+         /* Skills section edit */
          
 }
 
