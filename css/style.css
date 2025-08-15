@@ -150,7 +150,7 @@ ul li .nav-link {
 
 .about-section {
     /* background-color: #008AAA; */
-    height: 80vh;
+    height: 70vh;
     display: grid;
     grid-template-rows:  1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -205,12 +205,11 @@ ul li .nav-link {
 /* Project */
 
 .project-section-h2 {
-    position: absolute;
+    position: relative;
     height: 2.5em;
-    width: 20%;
-    left: 40%;
-    top: 170vh;
-    
+     width: 20%;
+    /* left: 40%;  */
+   
     padding: 15px 0 10px 0;
     font-size: 2em;
     text-align: center;
@@ -224,7 +223,7 @@ ul li .nav-link {
 .project-section {
     width: 100%;
     height: 80vh;
-    margin-top: 8%;
+   
    
 }
 .project-info {
