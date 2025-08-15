@@ -18,6 +18,12 @@
 /* Default */
 a {
     text-decoration: none;
+    
+}
+
+a[href="#myCarousel"] {
+    color: #3BBADB;
+    text-decoration: none;
 }
 
 
@@ -204,6 +210,7 @@ ul li .nav-link {
 
 .skills .skills-icons {
     width: 80px;
+    margin-top: 15px;
 
 }
 
@@ -214,7 +221,7 @@ ul li .nav-link {
     position: relative;
     height: 2.5em;
      width: 20%;
-    /* left: 40%;  */
+     margin: 0 0 10% 35%;
    
     padding: 15px 0 10px 0;
     font-size: 2em;
@@ -229,6 +236,7 @@ ul li .nav-link {
 .project-section {
     width: 100%;
     height: 80vh;
+    margin-bottom: 10%;
    
    
 }
