@@ -155,6 +155,7 @@ ul li .nav-link {
     margin: 10% 0 10% 0;
     flex-flow: row wrap;
    flex-basis: 100px;
+   justify-content: space-between;
     
 }
 
@@ -194,8 +195,16 @@ ul li .nav-link {
 }
 
 .skills {
-         /* Skills section edit */
+           display: flex;
+           gap: 8px;
+           
+           
          
+}
+
+.skills .skills-icons {
+    width: 80px;
+
 }
 
 
