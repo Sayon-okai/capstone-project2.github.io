@@ -280,3 +280,575 @@ ul li .nav-link {
  
 
 
+/* 
+   --- TODO: Mobile responsive -- media query 
+    Max width: 480px
+
+*/
+
+
+@media (max-width: 480px) {
+#header {
+         width: 100%;
+        height: auto;
+      
+        
+        
+
+        /* background-color: antiquewhite; */
+
+    }
+
+    /* Logo and Icons */
+    .logo {
+           display: none;
+    }
+
+
+
+    /* Nav Links */
+
+    ul {
+        align-items: center;
+       
+       
+       
+        
+
+
+    }
+
+    .active-link {
+        font-size: 1em;
+        font-style: normal;
+        color: #D1884F;
+    }
+
+
+#header ul li .nav-link {
+      
+        display: none;
+    
+
+
+    }
+
+/* Hero Section */
+
+.lead {
+    color: #3BBADB;
+    margin-bottom: 33px;
+    font-family: "Inter", monospace;
+}
+
+.special-text {
+    color: #D1884F;
+    font-style: normal;
+    font-size: .75em;
+    letter-spacing: 5px;
+}
+
+/* H1 greeting */
+.greeting {
+    color: #008AAA;
+}
+
+.user-img-section {
+    margin-left:  50%;
+}
+
+.user-profile {
+    width: 60%;
+    height: 300px;
+
+
+
+}
+
+.info-about {
+    margin-bottom: 33px;
+    text-align: justify;
+    font-family: "Inter";
+
+}
+
+/* Button */
+
+.btn-section {
+    margin-top: 5em;
+    width: 100%;
+    
+}
+
+#btn-see-project:hover {
+    width: 40.5%;
+    background-color: #008AAA;
+    color: #fff;
+    transition: all 1s ease-in-out;
+}
+
+#btn-hire-me:hover {
+    width: 30.5%;
+    background-color: #fff;
+    box-shadow: 3px 3px #008AAA17;
+    color: #008AAA;
+    transition: all 0.5s ease-in-out;
+}
+
+#btn-hire-me {
+    
+    width: 100%;
+    background: #008AAA;
+    box-shadow: 5px 5px #008AAA25;
+    color: #fff;
+}
+
+#btn-see-project {
+    width: 100%;
+    border: 2px solid #008AAA;
+    color: #008AAA;
+    box-shadow: 3px 3px #008AAA17;
+}
+
+/* Line separating here section and about me section  */
+
+.line {
+
+    margin: 10% 0 10% 0;
+}
+
+/* About me */
+.about-me {
+    font-size: 1.5em;
+    color: #D1884F;
+    position: relative;
+    left: 2%;
+  
+
+}
+
+.line-img {
+   display: none;
+}
+
+.about-section {
+    /* background-color: #008AAA; */
+
+    display: flex;
+    margin: 5% 0 10% 0;
+    flex-flow: row wrap;
+    flex-basis: 100px;
+    justify-content: space-between;
+
+}
+
+.about-section .educational-profile {
+
+
+    text-align: center;
+
+}
+
+.about {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+br {
+    display: none;
+}
+
+/* Educational Section */
+
+.main-title {
+    font-size: 1em;
+    color: #008AAA;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+
+
+}
+
+.sub-title {
+    font-size: 0.85em;
+    font-weight: bold;
+    margin: 15px 0 8px 0;
+}
+
+.sub-text {
+    font-style: italic;
+    font-size: .65em;
+}
+
+
+.skills {
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+   
+
+
+
+}
+
+.skills-title-text {
+        margin-top: 10%;
+}
+
+.skills .skills-icons {
+    width: 60px;
+    margin-top: 15px;
+
+}
+
+/* Project */
+
+.project-section-h2 {
+    position: relative;
+    height: 3.5em;
+    width: 50%;
+    margin: 10% 0 15px 10%;
+    padding: 15px 0 10px 0;
+    font-size: 1em;
+    text-align: center;
+    background-color: #D1884F;
+    border-bottom-left-radius: 88px;
+    border-top-right-radius: 88px;
+    color: #fff;
+}
+
+
+.project-section {
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 10%;
+
+
+}
+
+.project-info {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: -50%;
+    margin-bottom: 34px;
+    flex-direction: column;
+    justify-content: center;
+    background: #7a79797d;
+    border-radius: 15px;
+    transform: translateX(50px) scale(1.2);
+    border-top-left-radius: 60%;
+
+
+
+
+}
+
+.project-text {
+    margin-left: -100px;
+
+}
+
+.project-text p {
+    font-size: 0.85em;
+    color: #000;
+    background-color: #008AAA17;
+
+}
+
+.project-img {
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+
+
+}
+
+
+
+}
+
+
+
+/* 
+   --- TODO: Mobile responsive -- media query 
+    Max width: 780px
+
+*/
+
+
+@media (max-width: 720px) {
+    #header {
+        width: 100%;
+        height: auto;
+
+
+
+
+        /* background-color: antiquewhite; */
+
+    }
+
+    /* Logo and Icons */
+    .logo {
+        display: none;
+    }
+
+
+
+    /* Nav Links */
+
+    ul {
+        align-items: center;
+
+
+
+
+
+
+    }
+
+    .active-link {
+        font-size: 1em;
+        font-style: normal;
+        color: #D1884F;
+    }
+
+
+ 
+    /* Hero Section */
+
+    .lead {
+        color: #3BBADB;
+        margin-bottom: 33px;
+        font-family: "Inter", monospace;
+    }
+
+    .special-text {
+        color: #D1884F;
+        font-style: normal;
+        font-size: .75em;
+        letter-spacing: 5px;
+    }
+
+    /* H1 greeting */
+    .greeting {
+        color: #008AAA;
+    }
+
+    .user-img-section {
+        margin-left: 50%;
+    }
+
+    .user-profile {
+        width: 60%;
+        height: 300px;
+
+
+
+    }
+
+    .info-about {
+        margin-bottom: 33px;
+        text-align: justify;
+        font-family: "Inter";
+
+    }
+
+    /* Button */
+
+    .btn-section {
+        margin-top: 5em;
+        width: 100%;
+
+    }
+
+    #btn-see-project:hover {
+        width: 40.5%;
+        background-color: #008AAA;
+        color: #fff;
+        transition: all 1s ease-in-out;
+    }
+
+    #btn-hire-me:hover {
+        width: 30.5%;
+        background-color: #fff;
+        box-shadow: 3px 3px #008AAA17;
+        color: #008AAA;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #btn-hire-me {
+
+        width: 100%;
+        background: #008AAA;
+        box-shadow: 5px 5px #008AAA25;
+        color: #fff;
+    }
+
+    #btn-see-project {
+        width: 100%;
+        border: 2px solid #008AAA;
+        color: #008AAA;
+        box-shadow: 3px 3px #008AAA17;
+    }
+
+    /* Line separating here section and about me section  */
+
+    .line {
+
+        margin: 10% 0 10% 0;
+    }
+
+    /* About me */
+    .about-me {
+        font-size: 1.5em;
+        color: #D1884F;
+        position: relative;
+        left: 2%;
+
+
+    }
+
+    .line-img {
+        display: none;
+    }
+
+    .about-section {
+        /* background-color: #008AAA; */
+
+        display: flex;
+        margin: 5% 0 10% 0;
+        flex-flow: row wrap;
+        flex-basis: 100px;
+        justify-content: space-between;
+
+    }
+
+    .about-section .educational-profile {
+
+
+        text-align: center;
+
+    }
+
+    .about {
+        font-size: 1em;
+        font-style: italic;
+        font-weight: lighter;
+    }
+
+    br {
+        display: none;
+    }
+
+    /* Educational Section */
+
+    .main-title {
+        font-size: 1em;
+        color: #008AAA;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin: 10px 0 10px 0;
+
+
+    }
+
+    .sub-title {
+        font-size: 0.85em;
+        font-weight: bold;
+        margin: 15px 0 8px 0;
+    }
+
+    .sub-text {
+        font-style: italic;
+        font-size: .65em;
+    }
+
+
+    .skills {
+        display: flex;
+        gap: 3px;
+        flex-wrap: wrap;
+
+
+
+
+    }
+
+    .skills-title-text {
+        margin-top: 10%;
+    }
+
+    .skills .skills-icons {
+        width: 60px;
+        margin-top: 15px;
+
+    }
+
+    /* Project */
+
+    .project-section-h2 {
+        position: relative;
+        height: 3.5em;
+        width: 50%;
+        margin: 10% 0 15px 10%;
+        padding: 15px 0 10px 0;
+        font-size: 1em;
+        text-align: center;
+        background-color: #D1884F;
+        border-bottom-left-radius: 88px;
+        border-top-right-radius: 88px;
+        color: #fff;
+    }
+
+
+    .project-section {
+        width: 100%;
+        height: 80vh;
+        margin-bottom: 40%;
+
+
+    }
+
+    .project-info {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        margin-top: -50%;
+        margin-bottom: 34px;
+        flex-direction: column;
+        justify-content: center;
+        background: #7a79797d;
+        border-radius: 15px;
+        transform: translateX(50px) scale(1.2);
+        border-top-left-radius: 60%;
+
+
+
+
+    }
+
+    .project-text {
+        margin-left: -100px;
+
+    }
+
+    .project-text p {
+        font-size: 1em;
+        color: #000;
+        background-color: #008AAA17;
+
+    }
+
+    .project-img {
+        width: 100%;
+        height: 700px;
+        border-radius: 20px;
+
+
+    }
+
+}
