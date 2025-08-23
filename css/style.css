@@ -5,13 +5,13 @@
 
 
 */
-
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   font-family: "Inter", sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: "Inter", sans-serif;
    transition: all 0.5s ease-in-out;
 }
 
@@ -60,7 +60,7 @@ ul {
 
 ul li .nav-link {
            margin-right: ;
-           font-family: "Inter", monospace;
+           font-family: "Inter", sans-serif;
            color: #000;
       
            
@@ -72,13 +72,13 @@ ul li .nav-link {
 .lead {
         color: #3BBADB;
         margin-bottom: 33px;
-        font-family: "Inter", monospace;
+        font-family: "Inter", sans-serif;
 }
 
 .special-text {
     color: #D1884F;
     font-style: normal;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 
 /* H1 greeting */
@@ -338,7 +338,7 @@ ul li .nav-link {
 .lead {
     color: #3BBADB;
     margin-bottom: 33px;
-    font-family: "Inter", monospace;
+    font-family: "Inter", sans-serif;
 }
 
 .special-text {
@@ -623,7 +623,7 @@ br {
     .lead {
         color: #3BBADB;
         margin-bottom: 33px;
-        font-family: "Inter", monospace;
+        font-family: "Inter", sans-serif;
     }
 
     .special-text {
